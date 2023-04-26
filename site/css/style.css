@@ -1,11 +1,23 @@
 body{
-background-color: white;
+  background-image: url(../img/fundo.jpg);
+  background-attachment: fixed;
+
 }
 
 header{
   width 100;
   background-color: black;
   color: red
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+p, li{
+  padding: 2em;
 }
 
 .logo{
@@ -21,7 +33,6 @@ nav{
 .banner{
   width: 100%
 }
-
 
 .container{
   color:black;
@@ -68,4 +79,9 @@ footer{
   background-color: gold;
       width: 80%;
       margin: auto;
+}
+
+.jogos, .titulos, .curiosidades{
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
